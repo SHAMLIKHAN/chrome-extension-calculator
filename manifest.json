@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "Web-Calculator",
+	"description": "Simple Arithmetic Calculator",
+	"version": "1",
+	"author": "Shamlikhan CP",
+	"browser_action": {
+		"default_popup": "Calculator-JavaScript.html"
+	},
+	"permissions": ["activeTab"],
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+
+}
